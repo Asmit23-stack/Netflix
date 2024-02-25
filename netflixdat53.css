@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Martel-Sans";
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/67033404-2df8-42e0-a5a0-4c8288b4da2c/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 89vh;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .box {
+    height: 89vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    /* margin: auto; */
+    height: 62px;
+    position: relative;
+    padding: 2em 8em;
+}
+
+.img1 {
+    color: red;
+    width: 114px;
+    color: white;
+}
+
+.hero {
+    font-family: "Martel sans", "sans=serif";
+    display: flex;
+    align-items: center;
+    height: Calc(100% - 100px);
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    text-align: center;
+    padding: 20vh 23px;
+}
+@media screen and (max-width:1300px){
+    .hero
+}
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sepration {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    /* border: 2px solid rgb(46, 44, 44);  */
+    /* margin: 6em 0em; */
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    cursor: pointer;
+    /* border:1px solid white; */
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+
+
+
+.red-btn {
+    background-color: red;
+    padding: 9px 0px;
+    /* font-size: 20px; */
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+    font-weight: lighter;
+    font-size: 25px;
+    border: none;
+
+
+}
+
+.main input {
+    background-color: rgba(23, 23, 23, 0.2);
+    padding: 21px 101px 8px 4px;
+    font-size: 17px;
+    border-radius: 4px;
+    color: white;
+    /* border: none; */
+    font-weight: 900;
+    border: 1px solid whitesmoke;
+
+}
+
+.red-sm {
+    background-color: red;
+    color: white;
+    border: none;
+
+
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+/* .main{
+    display:flex;
+} */
+
+.first {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh Auto;
+    color: white;
+    max-width: 70vw;
+    /* text-align: center; */
+}
+@media screen and (max-width:1300px){
+    .first{
+flex-wrap:wrap;
+/* max-width:80vw; */
+    }
+    /* body{background-color: red;} */
+}
+.secImg {
+    position: relative;
+}
+
+.secImg Img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 53px;
+    right: 73px;
+    width: 23vw;
+
+}
+
+/* .vedio2{
+      right: 117px;
+    width: 17vw;
+
+} */
+.rowrev {
+    flex-direction: row-reverse;
+}
+
+.size {
+    font-size: 48px;
+}
+
+.first>:nth-child(1) {
+    width: 40vw;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.first>:nth-child(2) {
+    width: 40vw;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.faq {
+    margin: 5px auto ;
+    color: #d9c4c4;
+    width: 80vw;
+    height: 40vh;
+    /* padding:0px 78px; */
+    text-align: center;
+    font-size: 48px;
+}
+.faq h2{
+    text-align:center;
+    font-size:48px;
+  
+}
+.faqbox:hover{
+background-color:grey;
+transition: all 3s ease-out;
+}
+.faqbox {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a3338;
+    /* padding: 13px; */
+    /* font-weight: lighter; */
+    /* max-height: 63vw; */
+    padding: 14px 10px;
+    cursor:pointer;
+}
+.faqbox svg {
+    filter: invert(1);
+}
+/* footer{
+    
+     margin:60px 0px; 
+} */
+.footer a{
+    color:white;
+    margin: 6px 0px;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color:white;
+    margin:auto;
+    max-width: 80vw;
+}
+
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px; */
+    margin: 20px 17px;
+    font-size: 14px;
+    /* font-weight: 100;*/
+}
+.questions{
+    color:white;
+    margin:10vh 15vw;
+}
+
+@media screen and (max-width:1300px){
+    .footer{
+        grid-template-columns: 1fr 1fr;
+        gap:25px;
+    }
+}
